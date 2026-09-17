@@ -3,7 +3,7 @@
 ポプラの葉が、隣り合う普通の葉ブロック（オーク・シラカバなど）を少しずつ
 赤・橙・黄に染めていくデータパックです。放置するほど森全体が紅葉していきます。
 
-対象: **Minecraft Java Edition 26.3**（`min_format` / `max_format` = `108.0`）
+対象: **Minecraft Java Edition 26.3**（`min_format` / `max_format` = `121.0`）
 
 ---
 

@@ -10,4 +10,4 @@ scoreboard players set #timer autumn.config 0
 function autumn:config
 
 scoreboard players enable @a autumn.toggle
-tellraw @a ["",{"text":"[紅葉] ","color":"gold","bold":true},{"text":"Spreading Autumn Leaves を読み込みました  ","color":"gray"},{"text":"[/function autumn:status]","color":"yellow","clickEvent":{"action":"run_command","command":"/function autumn:status"}}]
+tellraw @a ["",{"text":"[紅葉] ","color":"gold","bold":true},{"text":"Spreading Autumn Leaves を読み込みました  ","color":"gray"},{"text":"[/function autumn:status]","color":"yellow","click_event":{"action":"run_command","command":"/function autumn:status"}}]
