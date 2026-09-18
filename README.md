@@ -15,3 +15,15 @@ Minecraft Java Edition 向けのデータパック置き場。`packs/<パック�
 ./scripts/pack.sh spreading-autumn-leaves  # 指定したパックだけ
 # -> dist/<パック名>.zip
 ```
+
+## 動画素材（`assets/`）
+
+動画の生素材はこのリポジトリの本来の目的（データパック公開）とは無関係なので `assets/` は git 管理対象外（`.gitignore` 参照）。ローカルに以下の構成で置く。
+
+```
+assets/
+  <YYYYMMDD>_<企画名>/
+    raw/      # OBSの生録画 (mkv)
+    voice/    # VOICEVOXの音声書き出し
+    export/   # 最終書き出し (mp4)
+```
