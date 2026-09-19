@@ -7,6 +7,13 @@ Minecraft Java Edition 向けのデータパック置き場。`packs/<パック�
 | パック | 対象バージョン | 内容 |
 | --- | --- | --- |
 | [`spreading-autumn-leaves`](packs/spreading-autumn-leaves/) | 26.3 | 紅葉が広がる。ポプラの葉が隣の葉を赤・橙・黄に染めていく |
+| [`if-name-length`](packs/if-name-length/) | 26.3 | 文字数が力。持ち物の名前の文字数がそのまま攻撃力になる（ifシリーズ） |
+
+## ifシリーズ
+
+「もし○○な世界だったら」を1パック1ルールで作るシリーズ。企画メモは
+[`docs/if-series-shorts.md`](docs/if-series-shorts.md)（ショート動画向け・優先）と
+[`docs/if-series-ideas.md`](docs/if-series-ideas.md)（腰を据えて遊ぶ用）。
 
 ## 配布用 zip を作る
 

@@ -1,0 +1,1 @@
+title @s actionbar ["",{"text":"⚔ ","color":"gray"},{"score":{"name":"*","objective":"namelen.len"},"color":"yellow"},{"text":"文字","color":"gray"},{"text":"  →  ","color":"dark_gray"},{"text":"攻撃力 ","color":"gray"},{"score":{"name":"*","objective":"namelen.dmg"},"color":"red"}]

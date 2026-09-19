@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "hit": {
+      "trigger": "minecraft:player_hurt_entity"
+    }
+  },
+  "rewards": {
+    "function": "namelen:internal/on_hit"
+  }
+}
