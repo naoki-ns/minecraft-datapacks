@@ -7,7 +7,8 @@
 function namelen:internal/pick_item
 
 scoreboard players set #raw namelen.tmp 0
-execute if data storage namelen:tmp item.components."minecraft:custom_name" store result score #raw namelen.tmp run data get storage namelen:tmp item.components."minecraft:custom_name"
+execute if data storage namelen:tmp item.components."minecraft:custom_name".text store result score #raw namelen.tmp run data get storage namelen:tmp item.components."minecraft:custom_name".text
+execute unless data storage namelen:tmp item.components."minecraft:custom_name".text if data storage namelen:tmp item.components."minecraft:custom_name" store result score #raw namelen.tmp run data get storage namelen:tmp item.components."minecraft:custom_name"
 
 tellraw @s ["",{"text":"――― probe ―――","color":"gold"}]
 execute unless data storage namelen:tmp item run tellraw @s ["",{"text":"手に何も持っていません","color":"red"}]

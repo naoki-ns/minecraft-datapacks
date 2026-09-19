@@ -35,5 +35,5 @@ scoreboard players set #name_overhead namelen.cfg 0
 scoreboard players set #actionbar namelen.cfg 1
 
 # --- 殴ったときの演出（1=出す / 0=出さない）----------------------------------
-#  文字数が多いほど派手になる。中身は internal/on_hit.mcfunction。
+#  攻撃力（文字数の2乗×倍率）が高いほど派手になる。段階は internal/fx.mcfunction。
 scoreboard players set #fx namelen.cfg 1
