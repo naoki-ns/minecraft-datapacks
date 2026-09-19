@@ -1,0 +1,8 @@
+tellraw @s ["",{"text":"---- 紅葉が広がる ----","color":"gold","bold":true}]
+tellraw @s ["",{"text":"伝播      : ","color":"gray"},{"score":{"name":"#enabled","objective":"autumn.config"},"color":"white"},{"text":"  (1=ON / 0=OFF)","color":"dark_gray"}]
+tellraw @s ["",{"text":"処理間隔  : ","color":"gray"},{"score":{"name":"#interval","objective":"autumn.config"},"color":"white"},{"text":" tick","color":"dark_gray"}]
+tellraw @s ["",{"text":"サンプル数: ","color":"gray"},{"score":{"name":"#samples","objective":"autumn.config"},"color":"white"},{"text":" /サイクル/人","color":"dark_gray"}]
+tellraw @s ["",{"text":"変化確率  : ","color":"gray"},{"score":{"name":"#chance","objective":"autumn.config"},"color":"white"},{"text":" %","color":"dark_gray"}]
+tellraw @s ["",{"text":"色の継承  : ","color":"gray"},{"score":{"name":"#inherit","objective":"autumn.config"},"color":"white"},{"text":" %","color":"dark_gray"}]
+tellraw @s ["",{"text":"探索範囲  : XZ±","color":"gray"},{"storage":"autumn:config","nbt":"radius_xz","color":"white"},{"text":" / Y±","color":"gray"},{"storage":"autumn:config","nbt":"radius_y","color":"white"}]
+tellraw @s ["",{"text":"[normal]","color":"aqua","click_event":{"action":"run_command","command":"/function autumn:speed/normal"}},{"text":" "},{"text":"[fast]","color":"yellow","click_event":{"action":"run_command","command":"/function autumn:speed/fast"}},{"text":" "},{"text":"[turbo]","color":"red","click_event":{"action":"run_command","command":"/function autumn:speed/turbo"}}]
